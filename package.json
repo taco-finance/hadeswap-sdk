@@ -1,18 +1,18 @@
 {
-  "name": "@sushiswap/sdk",
+  "name": "@hadeswap/sdk",
   "license": "MIT",
-  "version": "5.0.0-canary.7",
-  "description": "🛠 An SDK for building applications on top of Sushiswap.",
+  "version": "1.0.0",
+  "description": "🛠 An SDK for building applications on top of Hadeswap.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/sushiswap/sushiswap-sdk",
+  "repository": "https://github.com/taco-finance/hadeswap-sdk",
   "keywords": [
     "uniswap",
-    "sushiswap",
-    "ethereum"
+    "hadeswap",
+    "sparta"
   ],
   "module": "dist/sdk.esm.js",
   "scripts": {

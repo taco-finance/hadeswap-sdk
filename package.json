@@ -1,7 +1,8 @@
 {
-  "name": "@hadeswap/sdk",
+  "name": "hadeswap-beta-sdk",
+  "author": "aethereum",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "🛠 An SDK for building applications on top of Hadeswap.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -20,7 +21,6 @@
     "build": "tsdx build",
     "start": "tsdx watch",
     "test": "tsdx test",
-    "postinstall": "yarn build",
     "prepublishOnly": "tsdx build"
   },
   "dependencies": {

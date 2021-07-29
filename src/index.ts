@@ -11,7 +11,10 @@ export {
   POLIS_ADDRESS,
   MASTERCHEF_ADDRESS,
   TIMELOCK_ADDRESS,
-  MINIMUM_LIQUIDITY
+  MINIMUM_LIQUIDITY,
+  SUSHI_ADDRESS,
+  MAKER_ADDRESS,
+  BAR_ADDRESS
 } from './constants'
 
 export * from './errors'

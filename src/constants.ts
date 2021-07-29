@@ -48,7 +48,7 @@ export const FACTORY_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.HECO]: '0xc35DADB65012eC5796536bD9864eD8773aBc74C4',
   [ChainId.HARMONY]: '0xc35DADB65012eC5796536bD9864eD8773aBc74C4',
   [ChainId.OKEX]: '0xc35DADB65012eC5796536bD9864eD8773aBc74C4',
-  [ChainId.SPARTA]: '0xAB669f18149Ac97029C9CFB0dE6526CF7728A4Aa'
+  [ChainId.SPARTA]: '0x4dE201838c58E9571184b4B23cE089c1F29FFD18'
 }
 
 export const ROUTER_ADDRESS: { [chainId in ChainId]: string } = {
@@ -65,10 +65,27 @@ export const ROUTER_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.HECO]: '0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506',
   [ChainId.HARMONY]: '0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506',
   [ChainId.OKEX]: '0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506',
-  [ChainId.SPARTA]: '0x4ae964033D62a737144564228B5947609ebea48B'
+  [ChainId.SPARTA]: '0xdB85be8a02A3be1F190A4814FCFfb8834cc43923'
 }
 
 export const POLIS_ADDRESS: { [chainId in ChainId]: string } = {
+  [ChainId.MAINNET]: '0x6B3595068778DD592e39A122f4f5a5cF09C90fE2',
+  [ChainId.RINKEBY]: '0x0769fd68dFb93167989C6f7254cd0D766Fb2841F',
+  [ChainId.FANTOM]: '',
+  [ChainId.MATIC]: '',
+  [ChainId.XDAI]: '',
+  [ChainId.BSC]: '',
+  [ChainId.ARBITRUM]: '',
+  [ChainId.MOONBASE]: '',
+  [ChainId.AVALANCHE]: '',
+  [ChainId.FUJI]: '',
+  [ChainId.HECO]: '',
+  [ChainId.HARMONY]: '',
+  [ChainId.OKEX]: '',
+  [ChainId.SPARTA]: ''
+}
+
+export const SUSHI_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.MAINNET]: '0x6B3595068778DD592e39A122f4f5a5cF09C90fE2',
   [ChainId.RINKEBY]: '0x0769fd68dFb93167989C6f7254cd0D766Fb2841F',
   [ChainId.FANTOM]: '',
@@ -102,6 +119,39 @@ export const MASTERCHEF_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.SPARTA]: '',
 }
 
+export const BAR_ADDRESS: { [chainId in ChainId]: string } = {
+  [ChainId.MAINNET]: '0x8798249c2E607446EfB7Ad49eC89dD1865Ff4272',
+  [ChainId.RINKEBY]: '0x1be211D8DA40BC0ae8719c6663307Bfc987b1d6c',
+  [ChainId.FANTOM]: '',
+  [ChainId.MATIC]: '',
+  [ChainId.XDAI]: '',
+  [ChainId.BSC]: '',
+  [ChainId.ARBITRUM]: '',
+  [ChainId.MOONBASE]: '',
+  [ChainId.AVALANCHE]: '',
+  [ChainId.FUJI]: '',
+  [ChainId.HECO]: '',
+  [ChainId.HARMONY]: '',
+  [ChainId.OKEX]: '',
+  [ChainId.SPARTA]: ''
+}
+
+export const MAKER_ADDRESS: { [chainId in ChainId]: string } = {
+  [ChainId.MAINNET]: '0xE11fc0B43ab98Eb91e9836129d1ee7c3Bc95df50',
+  [ChainId.RINKEBY]: '0x1b9d177CcdeA3c79B6c8F40761fc8Dc9d0500EAa',
+  [ChainId.FANTOM]: '',
+  [ChainId.MATIC]: '',
+  [ChainId.XDAI]: '',
+  [ChainId.BSC]: '',
+  [ChainId.ARBITRUM]: '',
+  [ChainId.MOONBASE]: '',
+  [ChainId.AVALANCHE]: '',
+  [ChainId.FUJI]: '',
+  [ChainId.HECO]: '',
+  [ChainId.HARMONY]: '',
+  [ChainId.OKEX]: '',
+  [ChainId.SPARTA]: ''
+}
 
 export const TIMELOCK_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.MAINNET]: '0x9a8541Ddf3a932a9A922B607e9CF7301f1d47bD1',

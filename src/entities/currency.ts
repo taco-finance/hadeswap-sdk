@@ -14,41 +14,10 @@ export class Currency {
   public readonly name?: string
 
   public static readonly ETHER: Currency = new Currency(18, 'ETH', 'Ether')
-
-  public static readonly BNB: Currency = new Currency(18, 'BNB', 'Binance Coin')
-
-  public static readonly FTM: Currency = new Currency(18, 'FTM', 'Fantom')
-
-  public static readonly MATIC: Currency = new Currency(18, 'MATIC', 'Matic')
-
-  public static readonly XDAI: Currency = new Currency(18, 'XDAI', 'xDai')
-
-  public static readonly GLMR: Currency = new Currency(18, 'GLMR', 'Glimmer')
-
-  public static readonly AVAX: Currency = new Currency(18, 'AVAX', 'Avalanche')
-
-  public static readonly HT: Currency = new Currency(18, 'HT', 'Heco Token')
-
-  public static readonly ONE: Currency = new Currency(18, 'ONE', 'Harmony')
-
-  public static readonly OKT: Currency = new Currency(18, 'OKT', 'OKExChain')
-
   public static readonly POLIS: Currency = new Currency(18, 'POLIS', 'Polis')
 
   public static readonly NATIVE = {
     [ChainId.MAINNET]: Currency.ETHER,
-    [ChainId.RINKEBY]: Currency.ETHER,
-    [ChainId.FANTOM]: Currency.FTM,
-    [ChainId.MATIC]: Currency.MATIC,
-    [ChainId.XDAI]: Currency.XDAI,
-    [ChainId.BSC]: Currency.BNB,
-    [ChainId.ARBITRUM]: Currency.ETHER,
-    [ChainId.MOONBASE]: Currency.GLMR,
-    [ChainId.AVALANCHE]: Currency.AVAX,
-    [ChainId.FUJI]: Currency.AVAX,
-    [ChainId.HECO]: Currency.HT,
-    [ChainId.HARMONY]: Currency.ONE,
-    [ChainId.OKEX]: Currency.OKT,
     [ChainId.SPARTA]: Currency.POLIS
   }
 
@@ -117,28 +86,5 @@ export class Currency {
 }
 
 const ETHER = Currency.ETHER
-
-// const NATIVE_CURRENCY = {
-//   [ChainId.MAINNET]: Currency.ETHER,
-//   [ChainId.ROPSTEN]: Currency.ETHER,
-//   [ChainId.RINKEBY]: Currency.ETHER,
-//   [ChainId.GÖRLI]: Currency.ETHER,
-//   [ChainId.KOVAN]: Currency.ETHER,
-//   [ChainId.FANTOM]: Currency.FTM,
-//   [ChainId.FANTOM_TESTNET]: Currency.FTM,
-//   [ChainId.MATIC]: Currency.MATIC,
-//   [ChainId.MATIC_TESTNET]: Currency.MATIC,
-//   [ChainId.XDAI]: Currency.XDAI,
-//   [ChainId.BSC]: Currency.BNB,
-//   [ChainId.BSC_TESTNET]: Currency.BNB,
-//   [ChainId.ARBITRUM]: Currency.ETHER,
-//   [ChainId.MOONBASE]: Currency.GLMR,
-//   [ChainId.AVALANCHE]: Currency.AVAX,
-//   [ChainId.FUJI]: Currency.AVAX,
-//   [ChainId.HECO]: Currency.HT,
-//   [ChainId.HECO_TESTNET]: Currency.HT,
-//   [ChainId.HARMONY]: Currency.ONE,
-//   [ChainId.HARMONY_TESTNET]: Currency.ONE
-// }
 
 export { ETHER }
